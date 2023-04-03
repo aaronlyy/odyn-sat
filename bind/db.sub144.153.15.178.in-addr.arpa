@@ -1,0 +1,18 @@
+;; db.sub144.153.15.178.in-addr.arpa
+;; Reverselookupzone für its-fulda.de
+;;
+$TTL 2D
+@       IN      SOA     ns01.its-fulda.de. its-fulda.de. (
+                                2018090401 ; Serial
+                                        8H      ; Refresh
+                                        2H      ; Retry
+                                        4W      ; Expire
+                                        2D )    ; TTL Negative Cache
+
+@       IN      NS      ns01.its-fulda.de.
+
+146      IN      PTR     ns01.its-fulda.de.
+147     IN      PTR     mail02.its-fulda.de.
+@	IN	NS	ns1.arcor-ip.de.
+@	IN	NS	ns2.arcor-ip.de.
+@	IN	NS	ns3.arcor-ip.de.

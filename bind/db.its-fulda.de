@@ -1,0 +1,44 @@
+; Zone: @
+; Exported  (yyyy-mm-ddThh:mm:ss.sssZ): 2023-04-03T14:37:03.983Z
+
+$TTL 2D
+
+; SOA Record
+@	 		IN	SOA	its-fulda.de.	ns01.its-fulda.de.	(
+2018070902	 ;serial
+8	 ;refresh
+2	 ;retry
+4	 ;expire
+3	 ;minimum ttl
+)
+
+; NS Records
+@	IN	NS	ns01.its-fulda.de.
+
+; MX Records
+@	IN	MX	10	mail01.its-fulda.de.
+@	IN	MX	20	mail02.its-fulda.de.
+
+; A Records
+@	IN	A	178.15.153.146
+ns01	IN	A	178.15.153.146
+localhost	IN	A	127.0.0.1
+mail01	IN	A	78.94.0.74
+mail02	IN	A	8.8.8.8
+
+; AAAA Records
+
+; CNAME Records
+
+; PTR Records
+
+; TXT Records
+
+; SRV Records
+
+; SPF Records
+
+; CAA Records
+
+; DS Records
+
